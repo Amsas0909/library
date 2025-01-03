@@ -1,0 +1,166 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.department {
+    margin: 0;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #005599;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Section */
+.profile-section h2 {
+    padding: 20px;
+    text-align: left;
+    
+    margin: 20px auto;
+    
+    
+
+}
+/* Profile Details */
+.profile-details {
+    display: grid;
+    grid-template-columns:300px 500px;
+    gap: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:100px; ;
+}
+
+.profile-details p {
+    margin: 5px;
+    color: #005599;
+}
+
+.profile-details span {
+    font-weight: bold;
+    color: #003366;
+}
+
+
+    
+
+
+.profile-header h2 {
+    color: #003366;
+    font-size: 30px;
+    margin-left:85px;
+    padding-top: 50px;
+}
+
+.profile-details p {
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* Search Section */
+.profilesearch-section {
+    width: 100px;
+    margin-top: -100px;
+    text-align: center;
+    margin: left 100px ;
+}
+
+.profilesearch-bar {
+    padding: 8px;
+    width: 500px;
+    border: 1px solid #1d1e1f;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+    margin-left: 780px;
+    
+}
+
+.profilesearch-btn {
+    padding: 10px 20px;
+    margin-left: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #005599;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.profilesearch-btn:hover {
+    background-color: #108ff7;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
